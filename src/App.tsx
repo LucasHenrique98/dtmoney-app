@@ -1,5 +1,12 @@
 import React from 'react';
+import { Header } from './components/Header/indexHeader';
+import { GlobalStyles } from './styles/globalStyles';
 
 export function App() {
-  return <h1>Olá</h1>;
+  return (
+    <>
+      <GlobalStyles />
+      <Header />
+    </>
+  );
 }
