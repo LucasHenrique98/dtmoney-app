@@ -2,12 +2,18 @@ import React from 'react';
 import logoImg from '../../assets/logo.svg';
 import { Container, Content } from './styles';
 
-export function Header() {
+interface HeaderProps {
+  onHandleButtonClick: () => void;
+}
+
+export function Header({ onHandleButtonClick }: HeaderProps) {
   return (
     <Container>
       <Content>
         <img src={logoImg} alt="" />
-        <button type="button">Nova transação</button>
+        <button onClick={onHandleButtonClick} type="button">
+          Nova transação
+        </button>
       </Content>
     </Container>
   );
