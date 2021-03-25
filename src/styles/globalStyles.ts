@@ -70,6 +70,7 @@ html{
 }
 
 .react-modal-content{
+  
   width:100%;
   max-width:576px;
   background:var(--background);
@@ -77,5 +78,19 @@ html{
   position: relative;
   border-radius:0.25rem;
   outline:none;
+}
+
+.react-modal-close{
+  position: absolute;
+  right:1.5rem;
+  top:1.5rem;
+  border:0;
+  background:transparent;
+
+  transition:filter 0.2s;
+
+  &:hover{
+    filter: brightness(0.8);
+  }
 }
 `;
