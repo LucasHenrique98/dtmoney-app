@@ -18,4 +18,10 @@
 
 - React-modal
 
+- Typescript
+
+
+![image](https://user-images.githubusercontent.com/30630150/114406593-0c54ca00-9b7e-11eb-8321-a72075e5fb2b.png)
+
+
   
